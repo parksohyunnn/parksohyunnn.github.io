@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: parksohyunnn # the main title
 
-tagline: Developer parksohyun
+tagline: Developer parksohyunnn
 
 description: >- # used by seo meta and the atom feed
   hi!😊
@@ -34,17 +34,17 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: parksohyun
-  email: 3247585@naver.com # change to your email address
+  name: parksohyunnn
+  email: parksohyunnn@naver.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/webs9919 # change to your twitter homepage
+    - https://twitter.com/parksohyunnn # change to your twitter homepage
     - https://github.com/parksohyunnn # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-google_site_verification: # fill in to your verification string
+google_site_verification: 
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
@@ -73,7 +73,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: ./assets/img/img1.jpg
+avatar: ../assets/img/img1.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -137,8 +137,8 @@ defaults:
     values:
       layout: page
       permalink: /:title/
-- scope:
-      path: assets/img/favicons/favicon.ico
+  - scope:
+      path: ./assets/img/favicons/favicon.ico
     values:
       swcache: true
   - scope:
